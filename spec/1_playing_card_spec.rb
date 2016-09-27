@@ -68,5 +68,5 @@ RSpec.describe PlayingCard, :type => :model do
       end
     end
   end
-
+ 
 end

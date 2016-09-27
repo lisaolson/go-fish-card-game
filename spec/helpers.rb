@@ -21,7 +21,7 @@ module PlayingCardHelper
 
   def face_regex
     FACE_REGEX
-  end
+  end 
 
   def ranks
     RANKS
