@@ -1,5 +1,21 @@
 class PlayingCard
-  # initialize
+  def initialize(card)
+    @rank = card[:rank]
+    @suit = card[:suit]
+    @face = @rank+@suit.to_s
+  end
+  def rank
+    @rank
+  end
+  def suit
+    @suit
+  end
+  def face
+    @face
+  end
+  def to_s
+    @face
+  end
 end
 
 class CardDeck
